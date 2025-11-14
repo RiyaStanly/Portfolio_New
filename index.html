@@ -2014,7 +2014,7 @@
             };
             
             const mailtoSubject = encodeURIComponent(formData.subject);
-            const mailtoBody = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+            const mailtoBody = encodeURIComponent(formData.message);
             const mailtoLink = `mailto:riyaelizabet@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
             
             window.location.href = mailtoLink;
