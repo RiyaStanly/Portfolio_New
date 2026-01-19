@@ -1,5 +1,5 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#1e40af" rx="8"/>
-  <text x="100" y="85" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">PCE</text>
-  <text x="100" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="0.05em">PILLAI</text>
+  <rect width="200" height="200" fill="#991b1b" rx="8"/>
+  <text x="100" y="85" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">PCE</text>
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="0.08em">PILLAI COLLEGE OF ENGINEERING</text>
 </svg>
