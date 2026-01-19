@@ -1,1 +1,8 @@
-File not found: /v1/AUTH_mw/wikipedia-en-local-public.47/4/47/George_Mason_University_logo.svg
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#005239"/>
+  <g transform="translate(100, 100)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#FFC733" text-anchor="middle" dominant-baseline="middle">G</text>
+    <text x="50" y="15" font-family="Arial, sans-serif" font-size="65" font-weight="600" fill="#FFC733" text-anchor="middle" dominant-baseline="middle">M</text>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="18" fill="#FFC733" text-anchor="middle">™</text>
+  </g>
+</svg>
