@@ -637,6 +637,40 @@
             color: var(--primary);
         }
 
+        .company-logo {
+            width: 3rem;
+            height: 3rem;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: bold;
+            font-size: 0.875rem;
+        }
+
+        .company-logo.gmu {
+            background-color: #006633;
+            color: #FFCC33;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .company-logo.smollan {
+            background-color: #1a237e;
+            color: #ffffff;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .company-logo.acmegrade {
+            background-color: #4fc3f7;
+            color: #ffffff;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
         .space-y-2 > * + * {
             margin-top: 0.5rem;
         }
@@ -1031,9 +1065,7 @@
                         <div class="card-header">
                             <div class="flex items-start justify-between">
                                 <div class="flex items-center gap-4">
-                                    <div class="icon-wrapper">
-                                        <i data-lucide="briefcase"></i>
-                                    </div>
+                                    <div class="company-logo gmu">GM</div>
                                     <div>
                                         <h3 class="card-title">Data & Program Operations Analyst</h3>
                                         <p class="text-lg text-muted">George Mason University</p>
@@ -1041,14 +1073,6 @@
                                             <div class="flex items-center gap-1">
                                                 <i data-lucide="calendar" style="width: 1rem; height: 1rem;"></i>
                                                 <span>Aug 2025 to Present</span>
-                                            </div>
-                                            <div class="flex items-center gap-1">
-                                                <i data-lucide="clock" style="width: 1rem; height: 1rem;"></i>
-                                                <span>Part-time</span>
-                                            </div>
-                                            <div class="flex items-center gap-1">
-                                                <i data-lucide="map-pin" style="width: 1rem; height: 1rem;"></i>
-                                                <span>On-site</span>
                                             </div>
                                         </div>
                                     </div>
@@ -1089,9 +1113,7 @@
                         <div class="card-header">
                             <div class="flex items-start justify-between">
                                 <div class="flex items-center gap-4">
-                                    <div class="icon-wrapper">
-                                        <i data-lucide="briefcase"></i>
-                                    </div>
+                                    <div class="company-logo smollan">SMOLLAN</div>
                                     <div>
                                         <h3 class="card-title">Data Scientist</h3>
                                         <p class="text-lg text-muted">Smollan</p>
@@ -1151,9 +1173,7 @@
                         <div class="card-header">
                             <div class="flex items-start justify-between">
                                 <div class="flex items-center gap-4">
-                                    <div class="icon-wrapper">
-                                        <i data-lucide="briefcase"></i>
-                                    </div>
+                                    <div class="company-logo acmegrade">ag</div>
                                     <div>
                                         <h3 class="card-title">Data Scientist</h3>
                                         <p class="text-lg text-muted">Acmegrade</p>
