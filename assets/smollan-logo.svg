@@ -1,4 +1,4 @@
-<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="80" fill="#1a237e"/>
-  <text x="100" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.05em">SMOLLAN</text>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#1a237e"/>
+  <text x="100" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" letter-spacing="0.05em">SMOLLAN</text>
 </svg>
