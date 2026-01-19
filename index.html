@@ -645,30 +645,15 @@
             align-items: center;
             justify-content: center;
             flex-shrink: 0;
-            font-weight: bold;
-            font-size: 0.875rem;
+            overflow: hidden;
+            background-color: #ffffff;
+            padding: 0.5rem;
         }
 
-        .company-logo.gmu {
-            background-color: #006633;
-            color: #FFCC33;
-            font-size: 1rem;
-            font-weight: 700;
-        }
-
-        .company-logo.smollan {
-            background-color: #1a237e;
-            color: #ffffff;
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.05em;
-        }
-
-        .company-logo.acmegrade {
-            background-color: #4fc3f7;
-            color: #ffffff;
-            font-size: 0.75rem;
-            font-weight: 600;
+        .company-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .space-y-2 > * + * {
@@ -1065,7 +1050,9 @@
                         <div class="card-header">
                             <div class="flex items-start justify-between">
                                 <div class="flex items-center gap-4">
-                                    <div class="company-logo gmu">GM</div>
+                                    <div class="company-logo">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/George_Mason_University_logo.svg/200px-George_Mason_University_logo.svg.png" alt="George Mason University logo" style="object-fit: contain;">
+                                    </div>
                                     <div>
                                         <h3 class="card-title">Data & Program Operations Analyst</h3>
                                         <p class="text-lg text-muted">George Mason University</p>
@@ -1113,7 +1100,9 @@
                         <div class="card-header">
                             <div class="flex items-start justify-between">
                                 <div class="flex items-center gap-4">
-                                    <div class="company-logo smollan">SMOLLAN</div>
+                                    <div class="company-logo">
+                                        <img src="https://smollan.com/wp-content/themes/smollan-2024/images/logo.svg" alt="Smollan logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'background:#1a237e;color:#fff;padding:0.5rem;border-radius:4px;font-size:0.7rem;font-weight:600;width:100%;height:100%;display:flex;align-items:center;justify-content:center;\'>SMOLLAN</div>'">
+                                    </div>
                                     <div>
                                         <h3 class="card-title">Data Scientist</h3>
                                         <p class="text-lg text-muted">Smollan</p>
@@ -1173,7 +1162,9 @@
                         <div class="card-header">
                             <div class="flex items-start justify-between">
                                 <div class="flex items-center gap-4">
-                                    <div class="company-logo acmegrade">ag</div>
+                                    <div class="company-logo">
+                                        <img src="https://www.acmegrade.com/images/logo.svg" alt="Acmegrade logo" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'background:#4fc3f7;color:#fff;padding:0.5rem;border-radius:4px;font-size:0.75rem;font-weight:600;width:100%;height:100%;display:flex;align-items:center;justify-content:center;\'>ag</div>'">
+                                    </div>
                                     <div>
                                         <h3 class="card-title">Data Scientist</h3>
                                         <p class="text-lg text-muted">Acmegrade</p>
